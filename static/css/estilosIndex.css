@@ -1,0 +1,130 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.btn-ejercio2{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  text-decoration: underline;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+.card {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.asistencia{
+  text-align: left;
+}
+.btn-ejercio3{
+  display: block;
+  margin-right: auto;
+
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+}
+.promedio{
+    text-align: left;
+}
+.estado{
+    text-align: left;
+}
+.a{
+    border-radius: 6px;
+}
+.b{
+border-radius: 5px;
+}
+.c{
+border-radius: 5px;
+}
+
+.btn-ejercio5{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+}
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+  display: block;
+  margin-right: auto;
+  background-color: blue;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  font-color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

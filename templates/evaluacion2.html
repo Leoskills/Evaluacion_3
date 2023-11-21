@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/estilosIndex.css">
+</head>
+<body>
+<div class="abs-center">
+ <div class="container">
+     <div class="card">
+         <div class="card-title"></div>
+             <div class="card-text">
+                <form action="/evaluacion2" method="POST">
+                    <label for="Nombre1">Nombre 1:</label>
+                    <input type="text" id="Nombre1" name="Nombre1" required>
+                    <br>
+                    <label for="Nombre2">Nombre 2:</label>
+                    <input type="text" id="Nombre2" name="Nombre2" required>
+                    <br>
+                    <label for="Nombre3">Nombre 3:</label>
+                    <input type="text" id="Nombre3" name="Nombre3" required>
+                    <button type="submit" style="color:white">Enviar</button>
+                </form>
+                {% if resultado1 and resultado2 and resultado3  %}
+                <div>
+                    <p> {{ resultado1 }}</p>
+                    <p>{{ estado1  }}</p>
+                </div>
+                {% endif %}
+
+             </div>
+     </div>
+ </div>
+</div>
+</body>
+</html>>
